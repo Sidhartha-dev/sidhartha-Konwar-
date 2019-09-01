@@ -1,0 +1,86 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: url('images/dfagag.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  height: 700px;
+  width: 100%;
+}
+.loginbox{
+  width: 320px;
+  height: 480px;
+  background: black;
+  color: #fff;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+h1{
+  margin: 0px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.loginbox p{
+margin: 0px;
+padding: 0px;
+font-weight: bold;
+}
+.loginbox input{
+  width: 240px;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"], input[type="confirm Password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height:40px;
+  color: #fff;
+  font-size:12px;
+  }
+.loginbox input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: red;
+  color:#fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+  cursor: pointer;
+  background: green;
+  color: #000;
+}
+.loginbox a{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: purple;
+}
+.loginbox a:hover{
+  color: #fff;
+}
+@media(max-width:479px) {
+  .loginbox{
+  width:240px;
+}
+  .loginbox input{
+    width: 170px;
+    margin-bottom: 20px;
+  }
+}
